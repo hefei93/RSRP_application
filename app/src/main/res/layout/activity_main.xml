@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leesujin.ffffinal.MainActivity">
+
+    <TextView
+        android:id="@+id/txtRsrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:onClick="mOnFileWrite"
+        android:text="파일쓰기"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:onClick="mOffFileWrite"
+        android:text="파일저장"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</LinearLayout>
